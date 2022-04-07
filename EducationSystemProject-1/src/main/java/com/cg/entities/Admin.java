@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "admins_table")//this assign table name
+@Table(name = "admins_table")//this is table name
 public class Admin {
 
 	@Id
